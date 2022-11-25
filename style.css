@@ -1,0 +1,99 @@
+/* :root{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #E7F6F2;
+
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    background: #FFFFFF;
+    margin: 0 0 0 0;
+}
+
+#first-page{
+    background: #FFFFFF;
+    
+}
+
+#background{
+    width: 375px;
+    height: 421px;
+
+    background-image: url(img/background1.svg )  ;
+    background-repeat: no-repeat;
+     Як зменшити картинку 
+    
+}
+
+#logo{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#img{
+    width: 89px;
+    height: 75px;
+}
+
+#nav-desctop{
+    display: none;
+}
+
+#first-page  h1{
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+
+    color: #395B64;
+
+    margin-left: 15px;
+}
+
+#second{
+    background-color: #2C3333;
+
+}
+
+#second h2{
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #A5C9CA;
+
+    padding-top: 42px ;
+    text-align: center;
+}
+
+.project img{
+    
+    width: 322px;
+    height: 140px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project h3{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-top: 0;
+} */
