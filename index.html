@@ -4,19 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimal-ui">
-    <link rel="stylesheet" href="style.css" >
+    
     <title>Future technogy for helth</title>
+
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet"   href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
 </head>
 <body>
 
     <div id="first-page">
-       
+        <div id="left" class="left">
+            <a href="#menu" class="popup_area"></a>
+            
+            <div class="popup_body">
+                <div class="popup_content">
+                    
+                    <div class="popup_text">
+                        <ul>
+                            <li>
+                                <a href="#first-page"> MAIN</a>
+                            </li>
+                            <li>
+                                <a href="#touts-about-us"> ABOUT US</a>
+                            </li>
+                            <li>
+                                <a href="#touts-about-us"> TOURS</a>
+                            </li>
+                            <li>
+                                <a href="#gallery-feedback"> GALLERY</a>
+                            </li>
+                            <li>
+                                <a href="#gallery-feedback"> REVIEWS</a>
+                            </li>
+                            <li>
+                                <a href="#footer"> CONTACTS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
         <div id="nav">
             <div id="logo">
                 <img src="img/logo.svg" alt="logo" id="img">
             </div>
+            <div id="but-menu">
+                <div class="popup-link"><a href="#left" class="popup-link"><img src="img/menu.svg" id="menu"  ></a></div>
+            </div>
 
-            <div id="nav-desctop">
+            <div id="nav-desktop">
                 <ul>
                     <a href="#first-page"><li>Main</li></a>
                 </ul>
@@ -36,109 +75,130 @@
                     <a href="#contacts"><li>Contacts</li></a>
                 </ul>
             </div>
-
-            <div id="background">
-                <!-- <img src="img/background1.svg"> -->
-            </div>
-
-            <h1>FUTURE<br>TECHNOLOGY<br>FOR HELTH</h1>
         </div>
-        
+          
+            <h1>FUTURE<br>TECHNOLOGY<br>FOR HELTH</h1>    
     </div>
 
     <div id="second">
         <h2> Our projects</h2>
 
         <div class="project">
-            <a href=""><img src="img/pict-1.svg" alt="Cybernetic arm"></a>
-            <h3>Cybernetic arm</h3>
+            <div><a href="https://www.biolitec-fair.com/en/home?gclid=CjwKCAiAwomeBhBWEiwAM43YIHJaQq6j4LXV6npSUHuWnQh2dK9DuUbgJ1aOZsEANN6BamxdpyhX8BoCtw8QAvD_BwE" target="_blank"><img src="img/pict-1.svg" alt="Cybernetic arm" class="photo"></a></div>
+            <div class="grid-center"><h3>Cybernetic arm</h3></div>
         </div>
 
         <div class="project">
-            <a href=""><img src="img/pict-2.svg" alt="Robotic surgeon"></a>
-            <h3>Robotic surgeon</h3>
+            <div class="grid-center"><h3>Robotic surgeon</h3></div>
+            <div><a href="https://www.biolitec-fair.com/en/home?gclid=CjwKCAiAwomeBhBWEiwAM43YIHJaQq6j4LXV6npSUHuWnQh2dK9DuUbgJ1aOZsEANN6BamxdpyhX8BoCtw8QAvD_BwE" target="_blank"><img src="img/pict-2.svg" alt="Robotic surgeon" class="photo"></a></div>
+            
         </div>
 
-        <div>
-            <span>Science does not stand still, so with its help
-                we are trying to make other people's lives better.</span>
+        <div id="span">
+            <p>Science does not stand still, so with its help
+                we are trying to make other people's lives better.</p>
         </div>
     </div>
     
     <div id="third">
         <div id="video">
+            
             <h2>Video</h2>
-            <span>Let`s create ours life better</span>
-            <div id="pro-video">
-                <a href="#"><img src="img/video-1.svg"></a>
-                <a href="#"><img src="img/video-2.svg"></a>
+           
+            <div class="grid">
+                <div><span>Let`s <br> create ours <br>life better</span></div>
+                <div><a href="https://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%8F" target="_blank"><img src="img/video-1.svg" class="photo-video"></a></div>
+                <div><a href="https://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%8F" target="_blank"><img src="img/video-2.svg" class="photo-video" id="del"></a></div>
             </div>
+
         </div>
 
         <div id="partners">
             <h2>Partners</h2>
-            <div>
-                <a href="#"><img src="img/partners-1.svg"></a>
-                <a href="#"><img src="img/partners-2.svg"></a>
-                <a href="#"><img src="img/partners-3.svg"></a>
+
+            <div class="swiper">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/partners-1.svg" class="slide-photo"></div>
+                      <div class="swiper-slide"><img src="img/partners-2.svg" class="slide-photo"></div>
+                      <div class="swiper-slide"><img src="img/partners-3.svg" class="slide-photo"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                
+                  
+                  <script>
+                    var swiper = new Swiper(".mySwiper", {
+                      spaceBetween: 30,
+                      navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                      },
+                      pagination: {
+                        el: ".swiper-pagination",
+                      },
+                      mousewheel: true,
+                      keyboard: true,
+                    });
+                  </script>
+            </div>
+
+            <div class="slide-grid">
+
+                <div><p><img src="img/partners-1.svg" class="slide-photo"></p></div>
+                <div><p><img src="img/partners-2.svg" class="slide-photo"></p></div>
+                <div><p><img src="img/partners-3.svg" class="slide-photo"></p></div>
+
+            </div>
+            
+
+        </div>
+    </div>
+
+
+    <div class="forma-reest">
+            
+        <p class="button"> <button onclick="show('block')" class="regButton">Call me</button></p>
+           
+            <div onclick="show('none')" id="gray"></div>
+        <div id="window">
+            <div class="form">
+                <h4> <br><br>Call me</h4>
+                <form action="index.html" name="f1">
+                    <input type="text" placeholder="Name" name="name1" class="input">
+                    <input type="text" placeholder="Surname" name="name2" class="input">
+                    <input type="email" placeholder="Email" name="email1" class="input">
+                    
+                    
+                    <input type="submit" value="Call me" name="sab" class="input"> 
+                </form>
             </div>
         </div>
-    </div>
 
-    <div id="project1">
-        <!-- <img src="img/background2.svg"> -->
-        <div>
-            <span>
-                The cybernetic arm of the new generation will allow not 
-                only to live a full life, but also to modify it for the needs 
-                with special devices
-            </span>
-            <button>Send feedback</button>
-        </div>
-    </div>
+        <script>
 
-    <div id="project2">
-        <!-- <img src="img/background3.svg"> -->
-        <div>
-            <span>
-                The robot surgeon can independently perform complex 
-                operations, without the intervention of others.Thanks 
-                to internal AI, it constantly practices and learns in the 
-                simulation
-            </span>
-            <button>Send feedback</button>
-        </div>
-    </div>
+            function show(state)
+            {
+            document.getElementById('window').style.display = state;	
+            document.getElementById('gray').style.display = state; 		
+            }	
+        </script>  
 
+    </div>
+    
     <div id="contacts">
         <footer>
             <span>
-                Kyiv, st. Velyka Vasylkivska, 10 <br>
+                <p>Kyiv, st. Velyka Vasylkivska, 10 <br>
                 10:00 - 18:00 (Sat., Sun. - weekend) <br>
-                Email:  medicalrobot@mr.com
+                Email:  medicalrobot@mr.com</p>
     
             </span>
         </footer>
     </div>
     
-    <div class="layout-container">      
-        <form class="form">
-            <h3 id="form-text">Email for contact with you</h3>
-            <div class="field required">
-                <label for="field-phone">Your phone number </label>
-                <input type="tel" id="foeid-phone" placeholder="+3805055555557"
-                class="control icon-phone" required>
-            </div>
-    
-            <div class="form-action">
-                <footer class="form-action">
-                    <button type="send" class="btn-send">Send</button>
-                </footer>
-            </div>
-    
-        </form>
-    </div>
-     
 
 </body>
 </html>
